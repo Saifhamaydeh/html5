@@ -9,7 +9,7 @@ contains two parts: a selector and a declaration.
 CSS declarations sit inside curly brackets and each is made up of two
 parts: a property and a value, separated by a colon. You can specify
 several properties in one declaration, each separated by a semi-colon.
-CSS treats each HTML element as if it appears inside
+CSS treats each HTML element as if it appears inside 
 its own box and uses rules to indicate how that
 element should look.
 Rules are made up of selectors (that specify the
