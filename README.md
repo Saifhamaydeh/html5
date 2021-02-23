@@ -1,5 +1,5 @@
 # html5
-#css
+# css
 css stand for Cascading Style Sheets
 its a style sheet language used for describing the presentation of
  a document written in a markup language such as HTML.
@@ -25,7 +25,7 @@ specifies Arial as the preferred typeface.
 CSS rules usually appear in a separate document,
 although they may appear within an HTML page.
 
-##colors
+## colors
 
 The color property allows you
 to specify the color of text inside
