@@ -68,18 +68,21 @@ alert("hello" +"  "+ nameUserInput );
 myFunction();
 
 function price(x){
-  if (x=='fox')
+  if (x =='fox')
   {
     alert("2000$");
   }
-  if (x=='gulf')
+  if ( x =='gulf')
   {
     alert("3000$");
   }
-  if (x=='bmw')
+  if (x =='bmw')
   {
     alert("4000$");
   }
+  else{
+    alert("please choise fox or gulf or bmw");
+  }
 }
 x=prompt("enter name of car to know his price")
-price('bmw');
+price(x);
