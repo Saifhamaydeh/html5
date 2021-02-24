@@ -62,4 +62,24 @@ alert("hello" +"  "+ nameUserInput );
   a=prompt('try again');
  }
 
+ function myFunction() {
+  alert("welcome in zed car shop!");
+}
+myFunction();
 
+function price(x){
+  if (x=='fox')
+  {
+    alert("2000$");
+  }
+  if (x=='gulf')
+  {
+    alert("3000$");
+  }
+  if (x=='bmw')
+  {
+    alert("4000$");
+  }
+}
+x=prompt("enter name of car to know his price")
+price('bmw');
