@@ -86,3 +86,33 @@ function price(x){
 }
 x=prompt("enter name of car to know his price")
 price(x);
+
+var us=prompt("enter a number ");
+us =parseInt(us);
+var default_image = document.getElementById('default_image');
+for (var j=1;j<=us;j++){
+function imgloop()
+  {
+    var ar = [];
+    ar.push("https://i.pinimg.com/originals/b5/cc/3f/b5cc3f37b85bc7f623cb8cafaf354cb3.png");
+    for (i = 0; ar.length > i; i++)
+    {
+      var img = new Image(50, 50);
+      img.src = ar[i];
+      var src = document.getElementById("elementid");
+      src.appendChild(img);
+    }
+  }
+  imgloop();
+}
+
+
+
+
+
+
+
+
+
+
+
